@@ -1,4 +1,4 @@
-# Mask R-CNN for Cells Detection, Segmentation, and Size Distribution of Individual Cells
+# Mask R-CNN for Bacterial Cells Detection, Segmentation, and Size Distribution of Individual Cells
 
 
 The repository includes:
