@@ -167,7 +167,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             p = Polygon(verts, facecolor="none", edgecolor=color)
             ax.add_patch(p)
     ax.imshow(masked_image.astype(np.uint8))
-    plt.savefig('C:\\Users\\hafiz\Desktop\\Study\\SDMines\\Summer\\Research\\Mask_RCNN\\Mask_RCNN\\Outputs\\image1.jpg',bbox_inches='tight', pad_inches=-0.5,orientation= 'landscape')
+    plt.savefig('Outputs\\image1.jpg',bbox_inches='tight', pad_inches=-0.5,orientation= 'landscape')
     if auto_show:
         plt.show()
 
@@ -304,7 +304,7 @@ def display_top_masks(image, mask, class_ids, class_names, limit=4):
         m = np.sum(m * np.arange(1, m.shape[-1] + 1), -1)
         to_display.append(m)
         titles.append(class_names[class_id] if class_id != -1 else "-")
-        plt.savefig('C:\\Users\\hafiz\Desktop\\Study\\SDMines\\Summer\\Research\\Mask_RCNN\\Mask_RCNN\\Outputs\\image_%d.jpg'%i,bbox_inches='tight', pad_inches=-0.5,orientation= 'landscape')
+        plt.savefig('Outputs\\image_%d.jpg'%i,bbox_inches='tight', pad_inches=-0.5,orientation= 'landscape')
         
     display_images(to_display, titles=titles, cols=limit + 1, cmap="Blues_r", )
     
