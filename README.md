@@ -53,4 +53,14 @@ Python 3.4, TensorFlow 1.3, Keras 2.0.8 and other common packages listed in `req
     ```bash
     python3 setup.py install
     ``` 
+    
+## If you like our work and find useful, please cite as:
+
+@article{ragi2021artificial,
+  title={Artificial intelligence-driven image analysis of bacterial cells and biofilms},
+  author={Ragi, Shankarachary and Rahman, Md Hafizur and Duckworth, Jamison and Kalimuthu, Jawaharraj and Chundi, Parvathi and Gadhamshetty, Venkataramana},
+  journal={IEEE/ACM transactions on computational biology and bioinformatics},
+  year={2021},
+  publisher={IEEE}
+}
 
